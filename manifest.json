@@ -1,0 +1,20 @@
+{
+  "name": "Colorish",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Helps people with common forms of colorblindness see better on Chrome.",
+  "homepage_url": "https://github.com/harshilia",
+  "icons": {
+    "16": "images/eyecon.png",
+    "48": "images/eyecon.png",
+    "128": "images/eyecon.png"
+  },
+  "browser_action": {
+    "default_title": "colorish",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
